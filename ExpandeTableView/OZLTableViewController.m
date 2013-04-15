@@ -7,7 +7,7 @@
 //
 
 #import "OZLTableViewController.h"
-#import "OZLDetailViewController.h"
+#import "OZLDetailTableViewController.h"
 #import "OZLTableViewController+Transition.h"
 
 @interface OZLTableViewController () {
@@ -86,9 +86,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    OZLDetailViewController *detailview = [[OZLDetailViewController alloc] init];
+    OZLDetailTableViewController *detailview = [[OZLDetailTableViewController alloc] init];
     detailview.titleStr = [_data objectAtIndex:indexPath.row];
-    [self expandView:[tableView cellForRowAtIndexPath:indexPath] toModalViewController:detailview];
+    [self expandFromCelll:[tableView cellForRowAtIndexPath:indexPath] toViewController:detailview];
+    
 }
 
 @end

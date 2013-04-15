@@ -20,6 +20,7 @@
 		D58001D4171C664200F0C928 /* OZLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D58001D3171C664200F0C928 /* OZLDetailViewController.m */; };
 		D58001D7171C6FAB00F0C928 /* OZLTableViewController+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = D58001D6171C6FAB00F0C928 /* OZLTableViewController+Transition.m */; };
 		D58001D9171C70A800F0C928 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D58001D8171C70A800F0C928 /* QuartzCore.framework */; };
+		D58001DC171C7C9400F0C928 /* OZLDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D58001DB171C7C9400F0C928 /* OZLDetailTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		D58001D5171C6FAB00F0C928 /* OZLTableViewController+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OZLTableViewController+Transition.h"; sourceTree = "<group>"; };
 		D58001D6171C6FAB00F0C928 /* OZLTableViewController+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OZLTableViewController+Transition.m"; sourceTree = "<group>"; };
 		D58001D8171C70A800F0C928 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D58001DA171C7C9400F0C928 /* OZLDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZLDetailTableViewController.h; sourceTree = "<group>"; };
+		D58001DB171C7C9400F0C928 /* OZLDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZLDetailTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,8 @@
 				D58001D3171C664200F0C928 /* OZLDetailViewController.m */,
 				D58001D5171C6FAB00F0C928 /* OZLTableViewController+Transition.h */,
 				D58001D6171C6FAB00F0C928 /* OZLTableViewController+Transition.m */,
+				D58001DA171C7C9400F0C928 /* OZLDetailTableViewController.h */,
+				D58001DB171C7C9400F0C928 /* OZLDetailTableViewController.m */,
 			);
 			path = ExpandeTableView;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 				D58001D1171C662200F0C928 /* OZLTableViewController.m in Sources */,
 				D58001D4171C664200F0C928 /* OZLDetailViewController.m in Sources */,
 				D58001D7171C6FAB00F0C928 /* OZLTableViewController+Transition.m in Sources */,
+				D58001DC171C7C9400F0C928 /* OZLDetailTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,15 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface UITableViewController (Transitions)
+@interface UIViewController (Transitions)
 
 // make a transition that looks like a modal view
 //  is expanding from a subview
-- (void)expandView:(UIView *)sourceView
-toModalViewController:(UIViewController *)modalViewController;
-
-// make a transition that looks like the current modal view
-//  is shrinking into a subview
-- (void)dismissModalViewControllerToView:(UIView *)view;
+- (void)expandFromCelll:(UIView *)sourceView
+       toViewController:(UIViewController *)viewController;
 
 @end
