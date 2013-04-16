@@ -30,7 +30,7 @@
 {
     [super viewDidLoad];
     UILabel *titleLable = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 44)];
-    [titleLable setBackgroundColor:[UIColor grayColor]];
+//    [titleLable setBackgroundColor:[UIColor grayColor]];
     [titleLable setText:_titleStr];
     [titleLable setUserInteractionEnabled:YES];
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(titleTapped)];
@@ -51,6 +51,7 @@
     [refresh addTarget:self action:@selector(refreshView:) forControlEvents:UIControlEventValueChanged];
     [_tableview addSubview:refresh];
 }
+
 - (void)titleTapped
 {
     [self.navigationController popViewControllerAnimated:NO];
@@ -62,7 +63,6 @@
     [refresh endRefreshing];
     [_tableview reloadData];
 }
-
 
 -(void)refreshView:(UIRefreshControl *)refresh
 {
