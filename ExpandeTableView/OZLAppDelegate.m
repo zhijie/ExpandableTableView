@@ -20,7 +20,7 @@
     
     OZLTableViewController *rootview = [[OZLTableViewController alloc] init];
     _navigationController = [[UINavigationController alloc] initWithRootViewController:rootview];
-//    [_navigationController setNavigationBarHidden:YES];
+    [_navigationController setNavigationBarHidden:YES];
     self.window.rootViewController = _navigationController;
     
     return YES;

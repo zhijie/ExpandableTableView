@@ -32,6 +32,7 @@
     UILabel *titleLable = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 44)];
     [titleLable setBackgroundColor:[UIColor grayColor]];
     [titleLable setText:_titleStr];
+    [titleLable setUserInteractionEnabled:YES];
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(titleTapped)];
     [titleLable addGestureRecognizer:tap];
     [self.view addSubview:titleLable];
@@ -48,11 +49,27 @@
     refresh.tintColor = [UIColor lightGrayColor];
     refresh.attributedTitle = [[NSAttributedString alloc] initWithString:@"Pull to Refresh"];
     [refresh addTarget:self action:@selector(refreshView:) forControlEvents:UIControlEventValueChanged];
+    [_tableview addSubview:refresh];
 }
-
-- (void) titleTapped
+- (void)titleTapped
 {
     [self.navigationController popViewControllerAnimated:NO];
+}
+-(void)handleData:(UIRefreshControl*)refresh
+{
+    [_data addObject:[NSString stringWithFormat:@"%d",_data.count]];
+
+    [refresh endRefreshing];
+    [_tableview reloadData];
+}
+
+
+-(void)refreshView:(UIRefreshControl *)refresh
+{
+    if (refresh.refreshing) {
+        refresh.attributedTitle = [[NSAttributedString alloc]initWithString:@"Refreshing..."];
+        [self performSelector:@selector(handleData:) withObject:refresh afterDelay:1];
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -92,7 +109,7 @@
         [cellview setTag:indexPath.row];
         [cell addSubview:cellview];
     }else {
-        cellview = (UILabel *)[tableView viewWithTag:indexPath.row];
+        cellview = (UILabel *)[cell viewWithTag:indexPath.row];
     }
     // Configure the cell...
     [cellview setText:[_data objectAtIndex:indexPath.row]];

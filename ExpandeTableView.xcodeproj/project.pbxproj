@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BD0DADF171CEC21004A57A8 /* OZLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD0DADE171CEC21004A57A8 /* OZLDetailViewController.m */; };
 		D58001B2171C652000F0C928 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D58001B1171C652000F0C928 /* UIKit.framework */; };
 		D58001B4171C652000F0C928 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D58001B3171C652000F0C928 /* Foundation.framework */; };
 		D58001B6171C652000F0C928 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D58001B5171C652000F0C928 /* CoreGraphics.framework */; };
@@ -17,13 +18,12 @@
 		D58001C6171C652000F0C928 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D58001C5171C652000F0C928 /* Default@2x.png */; };
 		D58001C8171C652000F0C928 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D58001C7171C652000F0C928 /* Default-568h@2x.png */; };
 		D58001D1171C662200F0C928 /* OZLTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D58001D0171C662200F0C928 /* OZLTableViewController.m */; };
-		D58001D4171C664200F0C928 /* OZLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D58001D3171C664200F0C928 /* OZLDetailViewController.m */; };
-		D58001D7171C6FAB00F0C928 /* OZLTableViewController+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = D58001D6171C6FAB00F0C928 /* OZLTableViewController+Transition.m */; };
 		D58001D9171C70A800F0C928 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D58001D8171C70A800F0C928 /* QuartzCore.framework */; };
-		D58001DC171C7C9400F0C928 /* OZLDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D58001DB171C7C9400F0C928 /* OZLDetailTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BD0DADD171CEC21004A57A8 /* OZLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZLDetailViewController.h; sourceTree = "<group>"; };
+		2BD0DADE171CEC21004A57A8 /* OZLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZLDetailViewController.m; sourceTree = "<group>"; };
 		D58001AE171C652000F0C928 /* ExpandeTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpandeTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58001B1171C652000F0C928 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D58001B3171C652000F0C928 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,13 +39,7 @@
 		D58001C7171C652000F0C928 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D58001CF171C662200F0C928 /* OZLTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZLTableViewController.h; sourceTree = "<group>"; };
 		D58001D0171C662200F0C928 /* OZLTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZLTableViewController.m; sourceTree = "<group>"; };
-		D58001D2171C664200F0C928 /* OZLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZLDetailViewController.h; sourceTree = "<group>"; };
-		D58001D3171C664200F0C928 /* OZLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZLDetailViewController.m; sourceTree = "<group>"; };
-		D58001D5171C6FAB00F0C928 /* OZLTableViewController+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OZLTableViewController+Transition.h"; sourceTree = "<group>"; };
-		D58001D6171C6FAB00F0C928 /* OZLTableViewController+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OZLTableViewController+Transition.m"; sourceTree = "<group>"; };
 		D58001D8171C70A800F0C928 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		D58001DA171C7C9400F0C928 /* OZLDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZLDetailTableViewController.h; sourceTree = "<group>"; };
-		D58001DB171C7C9400F0C928 /* OZLDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZLDetailTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +60,6 @@
 		D58001A5171C652000F0C928 = {
 			isa = PBXGroup;
 			children = (
-				D58001D8171C70A800F0C928 /* QuartzCore.framework */,
 				D58001B7171C652000F0C928 /* ExpandeTableView */,
 				D58001B0171C652000F0C928 /* Frameworks */,
 				D58001AF171C652000F0C928 /* Products */,
@@ -84,6 +77,7 @@
 		D58001B0171C652000F0C928 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D58001D8171C70A800F0C928 /* QuartzCore.framework */,
 				D58001B1171C652000F0C928 /* UIKit.framework */,
 				D58001B3171C652000F0C928 /* Foundation.framework */,
 				D58001B5171C652000F0C928 /* CoreGraphics.framework */,
@@ -94,17 +88,13 @@
 		D58001B7171C652000F0C928 /* ExpandeTableView */ = {
 			isa = PBXGroup;
 			children = (
+				2BD0DADD171CEC21004A57A8 /* OZLDetailViewController.h */,
+				2BD0DADE171CEC21004A57A8 /* OZLDetailViewController.m */,
 				D58001C0171C652000F0C928 /* OZLAppDelegate.h */,
 				D58001C1171C652000F0C928 /* OZLAppDelegate.m */,
 				D58001B8171C652000F0C928 /* Supporting Files */,
 				D58001CF171C662200F0C928 /* OZLTableViewController.h */,
 				D58001D0171C662200F0C928 /* OZLTableViewController.m */,
-				D58001D2171C664200F0C928 /* OZLDetailViewController.h */,
-				D58001D3171C664200F0C928 /* OZLDetailViewController.m */,
-				D58001D5171C6FAB00F0C928 /* OZLTableViewController+Transition.h */,
-				D58001D6171C6FAB00F0C928 /* OZLTableViewController+Transition.m */,
-				D58001DA171C7C9400F0C928 /* OZLDetailTableViewController.h */,
-				D58001DB171C7C9400F0C928 /* OZLDetailTableViewController.m */,
 			);
 			path = ExpandeTableView;
 			sourceTree = "<group>";
@@ -192,9 +182,7 @@
 				D58001BE171C652000F0C928 /* main.m in Sources */,
 				D58001C2171C652000F0C928 /* OZLAppDelegate.m in Sources */,
 				D58001D1171C662200F0C928 /* OZLTableViewController.m in Sources */,
-				D58001D4171C664200F0C928 /* OZLDetailViewController.m in Sources */,
-				D58001D7171C6FAB00F0C928 /* OZLTableViewController+Transition.m in Sources */,
-				D58001DC171C7C9400F0C928 /* OZLDetailTableViewController.m in Sources */,
+				2BD0DADF171CEC21004A57A8 /* OZLDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +297,7 @@
 				D58001CD171C652100F0C928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
