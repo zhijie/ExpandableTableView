@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BCDDC47171EC40E0020CFEF /* OZLExpandableTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCDDC46171EC40E0020CFEF /* OZLExpandableTableView.m */; };
 		2BD0DADF171CEC21004A57A8 /* OZLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD0DADE171CEC21004A57A8 /* OZLDetailViewController.m */; };
 		D58001B2171C652000F0C928 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D58001B1171C652000F0C928 /* UIKit.framework */; };
 		D58001B4171C652000F0C928 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D58001B3171C652000F0C928 /* Foundation.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BCDDC45171EC40E0020CFEF /* OZLExpandableTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZLExpandableTableView.h; sourceTree = "<group>"; };
+		2BCDDC46171EC40E0020CFEF /* OZLExpandableTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZLExpandableTableView.m; sourceTree = "<group>"; };
 		2BD0DADD171CEC21004A57A8 /* OZLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZLDetailViewController.h; sourceTree = "<group>"; };
 		2BD0DADE171CEC21004A57A8 /* OZLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZLDetailViewController.m; sourceTree = "<group>"; };
 		D58001AE171C652000F0C928 /* ExpandeTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpandeTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +98,8 @@
 				D58001B8171C652000F0C928 /* Supporting Files */,
 				D58001CF171C662200F0C928 /* OZLTableViewController.h */,
 				D58001D0171C662200F0C928 /* OZLTableViewController.m */,
+				2BCDDC45171EC40E0020CFEF /* OZLExpandableTableView.h */,
+				2BCDDC46171EC40E0020CFEF /* OZLExpandableTableView.m */,
 			);
 			path = ExpandeTableView;
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 				D58001C2171C652000F0C928 /* OZLAppDelegate.m in Sources */,
 				D58001D1171C662200F0C928 /* OZLTableViewController.m in Sources */,
 				2BD0DADF171CEC21004A57A8 /* OZLDetailViewController.m in Sources */,
+				2BCDDC47171EC40E0020CFEF /* OZLExpandableTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
