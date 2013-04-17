@@ -1,4 +1,4 @@
-ExpandeTableView
+ExpandableTableView
 ================
 
 tableview cell expand animation<br/>
