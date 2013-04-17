@@ -1,14 +1,14 @@
 ExpandeTableView
 ================
 
-tableview cell expand animation,<br/>
+tableview cell expand animation<br/>
 -------------------------------------
 which create a smooth transformation from master view (like UITableViewController) to detailview<br/>
 
-HOW TO USES:
+HOW TO USE:
 ------------
 - **step 1**: copy OZLExpandableTableView.h && OZLExpandableTableView.m to your project
-- **step 2**: #import "OZLExpandableTableView.h" in your master view
+- **step 2**: <pre class="prettyprint">#import "OZLExpandableTableView.h"</pre> in your master view
 - **step 3**: in your master view, add code [self expandFromCell: toViewController:] when you trigger the detail view
 for example:
 <pre class="prettyprint">
